@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin-left: 30px;
+  padding-top: 20px;
+  background-color: rgb(224, 241, 160);
+}
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin: 20px 30px;
+  font-weight: bold;
+}
+button {
+  margin: 20px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.container {
+  margin: 30px 30px;
+  display: flex;
+}
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 304px;
+  height: 604px;
+  background-color: rgb(223, 151, 92);
+  border: 2px solid black;
+}
+.game-grid div {
+  width: 30px;
+  height: 30px;
+}
+
+.brick-draw {
+  background-color: blue;
+}
+.mini-grid {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 124px;
+  height: 124px;
+  background-color: rgb(223, 151, 92);
+  border: 2px solid black;
+}
+.mini-grid div {
+  width: 30px;
+  height: 30px;
+}
